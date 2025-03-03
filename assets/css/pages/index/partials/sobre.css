@@ -1,0 +1,173 @@
+@import url(/Assets/Css/global/variables.css);
+
+#CaixaSobre {
+  width: 100%;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 40px;
+  gap: 50px;
+  position: relative;
+  background-color: black;
+}
+
+.BgCaixaSobre {
+  margin-top: 10px;
+  width: 100%;
+  height: 105%;
+  position: absolute;
+  top: 0px;
+  background-image: url(/Assets/Image/VenomBg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(5px);
+  z-index: 1;
+}
+
+.DgCaixaSobre {
+  width: 100%;
+  height: 110%;
+  position: absolute;
+  top: 0px;
+  z-index: 2;
+  background: linear-gradient(
+    180deg,
+    rgb(0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.4) 49%,
+    rgba(0, 0, 0) 100%
+  );
+}
+
+#CaixaSobre .AreaTxt {
+  width: 100%;
+  text-align: center;
+  line-height: 35px;
+  color: var(--Cinza);
+  font-size: var(--p3);
+  z-index: 2;
+}
+
+#CaixaSobre .AreaDiferenciais {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 10px;
+  z-index: 2;
+}
+
+.AreaDiferenciais .AreaTxt {
+  width: 100%;
+  text-align: center;
+  line-height: 35px;
+  font-weight: 600 !important;
+  color: var(--AzulNeon) !important;
+  font-size: var(--t3) !important;
+  margin-bottom: 40px;
+  z-index: 2;
+}
+
+.AreaDiferenciais .Diferenciais {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  z-index: 2;
+}
+
+.Diferenciais .Diferencial {
+  width: 290px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  background-color: var(--Cinzaescuro);
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: 0.5s ease-in-out;
+  border: 1px solid transparent;
+}
+
+.Diferencial:hover {
+  border: 1px solid var(--Azulclaro);
+  box-shadow: 0px 0px 10px var(--Azulclaro);
+}
+
+.Diferencial h1 {
+  color: var(--Cinzaclaro);
+  font-size: var(--t1);
+  width: 270px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.Diferencial p {
+  color: var(--Cinza);
+  font-size: var(--p1);
+  width: 270px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.imgdiferencial1 {
+  width: 100px;
+  height: 30px;
+  background-image: url(/assets/image/interface-de-alvo-em-cruz.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: AnimaLuzDiferencial 1.7s ease-in-out infinite;
+}
+
+.imgdiferencial2 {
+  width: 100px;
+  height: 30px;
+  background-image: url(/assets/image/alvo-de-dardos.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: AnimaLuzDiferencial 1.9s ease-in-out infinite;
+}
+
+.imgdiferencial3 {
+  width: 100px;
+  height: 30px;
+  background-image: url(/assets/image/raio.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: AnimaLuzDiferencial 1.5s ease-in-out infinite;
+}
+
+.imgdiferencial4 {
+  width: 100px;
+  height: 30px;
+  background-image: url(/assets/image/controle-de-video-game.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: AnimaLuzDiferencial 1.7s ease-in-out infinite;
+}
+
+@keyframes AnimaLuzDiferencial {
+  0% {
+    filter: drop-shadow(0px 0px 10px rgb(13, 99, 179));
+  }
+  50% {
+    filter: drop-shadow(0px 0px 20px rgb(0, 102, 255)) saturate(10);
+  }
+
+  100% {
+    filter: drop-shadow(0px 0px 10px rgb(13, 99, 179));
+  }
+}

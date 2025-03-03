@@ -1,0 +1,20 @@
+:root {
+  /* Tamanho da Fonte */
+  --t1: clamp(1rem, 1.2vw, 1.2rem);
+  --t2: clamp(2rem, 2.2vw, 2.2rem);
+  --t3: clamp(3rem, 3.2vw, 3.2rem);
+  --t4: clamp(4rem, 4.2vw, 4.2rem);
+  --t7: clamp(7rem, 7.2vw, 7.2rem);
+  --p1: clamp(1rem, 1vw, 1rem);
+  --p2: clamp(1rem, 1.5vw, 1.5rem);
+  --p3: clamp(1.5rem, 1.5vw, 1.5rem);
+
+  /* Cores */
+  --Azulescuro: #011526;
+  --Azulclaro: #327aa7;
+  --AzulNeon: #00aeff;
+  --Cinzaclaro: #f1f1f1;
+  --Cinzamedio: #383838;
+  --Cinza: #adadad;
+  --Cinzaescuro: #1d1c1c;
+}

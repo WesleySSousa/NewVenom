@@ -1,0 +1,89 @@
+@media screen and (max-width: 850px) {
+  @import url(/Assets/Css/global/variables.css);
+
+  header {
+    backdrop-filter: blur(10px);
+    margin-top: 0px;
+    padding: 5px;
+    justify-content: center;
+    height: 80px;
+  }
+
+  header #BtnMenu {
+    right: 40px;
+    position: absolute;
+  }
+
+  #JanelaMenu {
+    width: 100%;
+  }
+
+  #InicioSessao1 .Txt1 h1 {
+    font-size: var(--t5);
+    position: relative;
+    right: -10px;
+  }
+
+  #InicioSessao1 .Txt2 h1 {
+    font-size: var(--t5);
+    position: relative;
+    text-align: center;
+    left: -20px;
+  }
+
+  #InicioSessao2 .AreaTxt {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  #InicioSessao2 .AreaTxt h1 {
+    font-size: var(--t3) !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  #InicioSessao2 .AreaTxt p {
+    font-size: var(--p3) !important;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0) !important;
+  }
+
+  #InicioSessao2 .BgSessao2 {
+    background-position: -150px 0px;
+    background-image: url(/assets/image/bgvenom.jpg);
+  }
+
+  #InicioSessao2 .AreaImgSessao2 {
+    display: none;
+  }
+
+  .Onda {
+    width: 100%;
+    height: 100px;
+    background-image: url(/Image/onda.png);
+    filter: brightness(0);
+    background-size: 1000px 100px !important;
+    position: absolute;
+    animation: WaveAnimation 2s ease-in-out infinite alternate;
+  }
+
+  #Onda1 {
+    z-index: 1000;
+    opacity: 1;
+    background-position-x: 400px;
+  }
+  #Onda2 {
+    z-index: 999;
+    opacity: 0.5;
+    background-position-x: 300px;
+  }
+  #Onda3 {
+    z-index: 998;
+    opacity: 0.2;
+    background-position-x: 200px;
+  }
+  #Onda4 {
+    z-index: 997;
+    opacity: 0.8;
+    background-position-x: 100px;
+  }
+}
