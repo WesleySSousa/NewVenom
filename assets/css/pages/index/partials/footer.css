@@ -1,0 +1,76 @@
+@import url(/Assets/Css/global/variables.css);
+
+/**/
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  z-index: 1;
+  padding: 60px 0px 10px;
+}
+
+.FooterCaixa {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.FooterCima {
+  background-image: url(/Assets/image/LogoSite.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  filter: saturate(0);
+  transition: 0.5s ease-in-out;
+  height: 150px;
+}
+
+.FooterCima:hover {
+  filter: saturate(1);
+}
+
+.FooterMeio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.FooterMeio ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  font-size: 20px;
+  flex-wrap: wrap;
+}
+
+.FooterMeio ul a,
+.FooterMeio ul li {
+  color: #7a7a7a;
+  text-shadow: 0px 0px 2px black;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.FooterMeio ul a:hover,
+.FooterMeio ul li:hover {
+  color: #00aeff;
+  transition: 0.5s ease-in-out;
+}
+
+.FooterBaixo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #7a7a7a;
+  text-shadow: 0px 0px 2px black;
+  transition: 0.3s ease-in-out;
+  margin-top: 40px;
+  background: linear-gradient(rgba(0, 0, 0, 0), black);
+}

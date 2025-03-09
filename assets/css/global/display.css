@@ -86,4 +86,23 @@
     opacity: 0.8;
     background-position-x: 100px;
   }
+
+  .logos {
+    width: 350px !important;
+  }
+
+  .logos-slide {
+    display: flex;
+    display: inline-block;
+    animation: 60s slide infinite linear !important;
+  }
+
+  .logos-slide img {
+    width: 600px !important;
+  }
+
+  .FooterMeio ul {
+    width: 80% !important;
+    gap: 10px;
+  }
 }

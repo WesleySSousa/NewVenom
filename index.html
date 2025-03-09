@@ -10,6 +10,7 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="./assets/css/pages/index/index.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!----->
@@ -31,10 +32,10 @@
     <!----->
     <div id="JanelaMenu" class="">
       <ul>
-        <li id="InicioBtn">INICIO</li>
-        <li id="SobreBtn">SOBRE</li>
-        <li id="ProdutosBtn">PRODUTOS</li>
-        <li id="AvaliacoesBtn">AVALIACOES</li>
+        <li class="InicioBtn">INICIO</li>
+        <li class="SobreBtn">SOBRE</li>
+        <li class="ProdutosBtn">PRODUTOS</li>
+        <li class="AvaliacoesBtn">AVALIACOES</li>
       </ul>
       <div class="ImgMenu"></div>
     </div>
@@ -70,8 +71,18 @@
           <div class="BgSessao2"></div>
           <div class="DgSessao2"></div>
           <div class="AreaTxt">
-            <h1>VENOM AIM ASSIST</h1>
-            <p>
+            <h1
+              data-aos="zoom-out-right"
+              data-aos-offset="50"
+              data-aos-easing="ease-in-sine"
+            >
+              VENOM AIM ASSIST
+            </h1>
+            <p
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+            >
               DOMINE O WARZONE COM NOSSA FERRAMENTA DE SIMULACAO DE CONTRE
               <br />
               PROJETADA PARA ELEVAR SUAS HABILIDADES E AUMENTAR SUA PRECISAO.
@@ -82,13 +93,18 @@
       </div>
       <!----->
       <!----->
-  
+
       <div id="CaixaSobre">
         <!---->
         <div class="BgCaixaSobre"></div>
         <div class="DgCaixaSobre"></div>
         <!---->
-        <div class="AreaTxt">
+        <div
+          class="AreaTxt"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="200"
+        >
           <p>
             Se você é um jogador de Warzone em busca de uma vantagem
             competitiva, você veio ao lugar certo. <br />
@@ -100,35 +116,51 @@
         <!---->
         <!---->
         <div class="AreaDiferenciais">
-          <div class="AreaTxt">
+          <div class="AreaTxt" data-aos="zoom-in-up" data-aos-duration="500">
             <p>Alguns de nossos Diferenciais</p>
           </div>
           <!---->
           <div class="Diferenciais">
             <!---->
             <!---->
-            <div class="Diferencial">
+            <div
+              class="Diferencial"
+              data-aos="zoom-in-up"
+              data-aos-duration="1000"
+            >
               <div class="imgdiferencial1"></div>
               <h1>Desempenho Superior</h1>
               <p>Precisão e controle excepcionais em suas partidas</p>
             </div>
             <!---->
             <!---->
-            <div class="Diferencial">
+            <div
+              class="Diferencial"
+              data-aos="zoom-in-up"
+              data-aos-duration="1000"
+            >
               <div class="imgdiferencial2"></div>
               <h1>AimAssist Buffed</h1>
               <p>Sistema avançado de assistência de mira</p>
             </div>
             <!---->
             <!---->
-            <div class="Diferencial">
+            <div
+              class="Diferencial"
+              data-aos="zoom-in-up"
+              data-aos-duration="1000"
+            >
               <div class="imgdiferencial3"></div>
               <h1>Resposta Ultra Rápida</h1>
               <p>Tempo de resposta otimizado para máxima performance</p>
             </div>
             <!---->
             <!---->
-            <div class="Diferencial">
+            <div
+              class="Diferencial"
+              data-aos="zoom-in-up"
+              data-aos-duration="1000"
+            >
               <div class="imgdiferencial4"></div>
               <h1>Compatibilidade Total</h1>
               <p>Funciona com qualquer mouse e teclado</p>
@@ -147,7 +179,12 @@
         <div class="BgCaixaProdutos"></div>
         <div class="DgCaixaProdutos"></div>
         <!---->
-        <div class="AreaTxt" id="ProdutosIr">
+        <div
+          class="AreaTxt"
+          id="ProdutosIr"
+          data-aos="zoom-out"
+          data-aos-duration="300"
+        >
           <p>
             descubra como a Venom pode transformar sua experiência de jogo.
             <br />
@@ -161,10 +198,10 @@
         <div class="BtnOpcaoProduto">
           <!---->
           <div class="AreaTxt">
-            <h1>Nossos Produtos</h1>
+            <h1 data-aos="zoom-in-down">Nossos Produtos</h1>
           </div>
           <!---->
-          <div class="OpcaoProduto">
+          <div class="OpcaoProduto" data-aos="zoom-in-down">
             <button id="OpcaoEmulador" class="OpcaoProdutoAtiva">
               Venom Emulador
             </button>
@@ -173,7 +210,7 @@
           <!---->
           <!---->
           <div id="AreaEmulador">
-            <div class="AreaTxt">
+            <div class="AreaTxt" data-aos="zoom-out-up">
               <h1>VENOM EMULADOR</h1>
               <p>
                 Use o mouse e o teclado como se fossem um controle! Software
@@ -185,10 +222,14 @@
             <div class="VideoEmulador"></div>
             <div class="ProdutosEmulador">
               <!--diario-->
-              <div class="Produto">
+              <div
+                class="Produto"
+                data-aos="zoom-in-up"
+                data-aos-duration="1000"
+              >
                 <div class="TxtProduto">
                   <h1>diario</h1>
-                  <p>Acesso ao venom emulador por um preco acessivel.</p>
+                  <p>Acesso por um dia inteiro.</p>
                 </div>
                 <!-- -->
                 <h1 class="PrecoProduto">R$ 20,00</h1>
@@ -204,10 +245,14 @@
               <!---->
               <!---->
               <!--semanal-->
-              <div class="Produto">
+              <div
+                class="Produto"
+                data-aos="zoom-in-up"
+                data-aos-duration="1000"
+              >
                 <div class="TxtProduto">
                   <h1>semanal</h1>
-                  <p>Acesso ao venom emulador por um preco acessivel.</p>
+                  <p>Jogue livre por sete dias.</p>
                 </div>
                 <!-- -->
                 <h1 class="PrecoProduto">R$ 40,00</h1>
@@ -223,10 +268,14 @@
               <!---->
               <!---->
               <!--mensal-->
-              <div class="Produto">
+              <div
+                class="Produto"
+                data-aos="zoom-in-up"
+                data-aos-duration="1000"
+              >
                 <div class="TxtProduto">
                   <h1>mensal</h1>
-                  <p>Acesso ao venom emulador por um preco acessivel.</p>
+                  <p>Use sem limites por um mês.</p>
                 </div>
                 <!-- -->
                 <h1 class="PrecoProduto">R$ 70,00</h1>
@@ -242,10 +291,14 @@
               <!---->
               <!---->
               <!--anual-->
-              <div class="Produto">
+              <div
+                class="Produto"
+                data-aos="zoom-in-up"
+                data-aos-duration="1000"
+              >
                 <div class="TxtProduto">
                   <h1>anual</h1>
-                  <p>Acesso ao venom emulador por um preco acessivel.</p>
+                  <p>Tenha acesso por um ano.</p>
                 </div>
                 <!-- -->
                 <h1 class="PrecoProduto">R$ 250,00</h1>
@@ -262,10 +315,14 @@
               <!---->
               <!---->
               <!--vitalicio-->
-              <div class="Produto">
+              <div
+                class="Produto"
+                data-aos="zoom-in-up"
+                data-aos-duration="1000"
+              >
                 <div class="TxtProduto">
                   <h1>vitalicio</h1>
-                  <p>Acesso ao venom emulador por um preco acessivel.</p>
+                  <p>Pague uma vez e use sempre.</p>
                 </div>
                 <!-- -->
                 <h1 class="PrecoProduto">R$ 320,00</h1>
@@ -287,10 +344,10 @@
             <div class="AreaTxt">
               <h1>VENOM Aim color</h1>
               <p>
-                Use o mouse e o teclado como se fossem um controle! Software
-                definitivo para remapeamento de teclado e mouse! Funciona com
-                qualquer mouse e teclado. AimAssist Buffed, No-Recoil, Auto-Ping
-                o mais completo!
+                O Aim Color permite que seu mouse siga cores específicas na
+                tela, proporcionando uma experiência de aim assist aprimorada.
+                <br />
+                Funciona com qualquer mouse e teclado.
               </p>
             </div>
             <div class="VideoEmulador"></div>
@@ -299,17 +356,17 @@
               <div class="Produto">
                 <div class="TxtProduto">
                   <h1>diario</h1>
-                  <p>Acesso ao venom emulador por um preco acessivel.</p>
+                  <p>Acesso por um dia inteiro.</p>
                 </div>
                 <!-- -->
-                <h1 class="PrecoProduto">R$ 20,00</h1>
+                <h1 class="PrecoProduto">R$ 25,00</h1>
                 <ul>
                   <li>AimAssist Buffed</li>
                   <li>No-Recoil</li>
                   <li>Auto-Ping</li>
                   <li>Resposta ultra rápida</li>
                 </ul>
-                <button class="ComprarBtn">Comprar</button>
+                <button class="ComprarBtn ClassButtom">Comprar</button>
               </div>
               <!---->
               <!---->
@@ -318,10 +375,10 @@
               <div class="Produto">
                 <div class="TxtProduto">
                   <h1>semanal</h1>
-                  <p>Acesso ao venom emulador por um preco acessivel.</p>
+                  <p>Jogue livre por sete dias.</p>
                 </div>
                 <!-- -->
-                <h1 class="PrecoProduto">R$ 40,00</h1>
+                <h1 class="PrecoProduto">R$ 60,00</h1>
                 <ul>
                   <li>AimAssist Buffed</li>
                   <li>No-Recoil</li>
@@ -337,10 +394,10 @@
               <div class="Produto">
                 <div class="TxtProduto">
                   <h1>mensal</h1>
-                  <p>Acesso ao venom emulador por um preco acessivel.</p>
+                  <p>Use sem limites por um mês.</p>
                 </div>
                 <!-- -->
-                <h1 class="PrecoProduto">R$ 70,00</h1>
+                <h1 class="PrecoProduto">R$ 80,00</h1>
                 <ul>
                   <li>AimAssist Buffed</li>
                   <li>No-Recoil</li>
@@ -352,22 +409,6 @@
               <!---->
               <!---->
               <!---->
-              <!--anual-->
-              <div class="Produto">
-                <div class="TxtProduto">
-                  <h1>anual</h1>
-                  <p>Acesso ao venom emulador por um preco acessivel.</p>
-                </div>
-                <!-- -->
-                <h1 class="PrecoProduto">R$ 250,00</h1>
-                <ul>
-                  <li>AimAssist Buffed</li>
-                  <li>No-Recoil</li>
-                  <li>Auto-Ping</li>
-                  <li>Resposta ultra rápida</li>
-                </ul>
-                <button class="ComprarBtn">Comprar</button>
-              </div>
               <!---->
               <!---->
               <!---->
@@ -376,10 +417,10 @@
               <div class="Produto">
                 <div class="TxtProduto">
                   <h1>vitalicio</h1>
-                  <p>Acesso ao venom emulador por um preco acessivel.</p>
+                  <p>Pague uma vez e use sempre.</p>
                 </div>
                 <!-- -->
-                <h1 class="PrecoProduto">R$ 320,00</h1>
+                <h1 class="PrecoProduto">R$ 200,00</h1>
                 <ul>
                   <li>AimAssist Buffed</li>
                   <li>No-Recoil</li>
@@ -396,12 +437,71 @@
       </div>
       <!----->
       <!----->
-      <div id="CaixaAvaliacoes">
+      <div id="CaixaAvaliacoes" data-aos="fade-up" data-aos-duration="500">
         <!---->
         <div class="BgCaixaAvaliacoes"></div>
         <div class="DgCaixaAvaliacoes"></div>
         <!---->
+        <div class="AreaTxt">
+          <h1>Opiniões dos Nossos Clientes</h1>
+          <p>
+            Aqui na Venom, a opinião dos nossos clientes é fundamental. <br />
+            Confira abaixo o que estão dizendo sobre nossos produtos e a
+            experiência de jogo que proporcionamos. <br />
+            Suas avaliações nos inspiram a continuar buscando a excelência em
+            cada detalhe.
+          </p>
+        </div>
+        <!---->
+        <!---->
+        <div class="logos">
+          <div class="logos-slide">
+            <img src="./assets/image/Avaliacoes/avaliacao_1_110.png" />
+            <img src="./assets/image/Avaliacoes/avaliacao_2_110.png" />
+            <img src="./assets/image/Avaliacoes/avaliacao_3_110.png" />
+            <img src="./assets/image/Avaliacoes/avaliacao1.png" />
+            <img src="./assets/image/Avaliacoes/avaliacao2.png" />
+            <img src="./assets/image/Avaliacoes/avaliacao3.png" />
+          </div>
+          <div class="logos-slide">
+            <img src="./assets/image/Avaliacoes/avaliacao_1_110.png" />
+            <img src="./assets/image/Avaliacoes/avaliacao_2_110.png" />
+            <img src="./assets/image/Avaliacoes/avaliacao_3_110.png" />
+            <img src="./assets/image/Avaliacoes/avaliacao1.png" />
+            <img src="./assets/image/Avaliacoes/avaliacao2.png" />
+            <img src="./assets/image/Avaliacoes/avaliacao3.png" />
+          </div>
+        </div>
+        <!---->
+        <!---->
       </div>
+      <!----->
+      <!----->
+      <footer>
+        <div class="FooterCaixa">
+          <div class="FooterCima"></div>
+          <div class="FooterMeio">
+            <ul>
+              <li class="InicioBtn">INICIO</li>
+              <li class="SobreBtn">SOBRE</li>
+              <li class="ProdutosBtn">PRODUTOS</li>
+              <li class="AvaliacoesBtn">AVALIACOES</li>
+              <li>
+                <a
+                  id="DiscordFooter"
+                  href="https://discord.com/invite/U7P7cKEVtP"
+                  target="_blank"
+                  >NOSSO DISCORD</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="FooterBaixo">
+          <p>© 2024 Venom. Todos os direitos reservados.</p>
+        </div>
+      </footer>
       <!----->
       <!----->
     </main>
@@ -410,6 +510,10 @@
     <!----->
     <!----->
     <script src="/Assets/Js/Inicio.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/Assets/Js/funcoes.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

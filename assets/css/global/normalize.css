@@ -1,4 +1,7 @@
-
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
 * {
   margin: 0;
   border: none;
@@ -7,5 +10,5 @@
   font-family: "Smooch Sans", serif;
   text-decoration: none;
   text-transform: uppercase;
+  list-style: none;
 }
-
