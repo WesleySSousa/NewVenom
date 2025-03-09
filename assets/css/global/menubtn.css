@@ -1,7 +1,3 @@
-@import url(/Assets/Css/geral.css);
-@import url(/Assets/Css/fonts.css);
-@import url(/Assets/Css/variaveis.css);
-
 #JanelaMenu {
   z-index: 9999;
   position: fixed;
