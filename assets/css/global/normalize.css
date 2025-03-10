@@ -12,3 +12,7 @@ body {
   text-transform: uppercase;
   list-style: none;
 }
+a {
+  text-decoration: none;
+  color: var(--Cinzaclaro);
+}
